@@ -1,0 +1,105 @@
+.heading{
+    display: flex;
+    gap:2rem;
+    background-color: #153252;
+    font-family:  "Poppins", sans-serif;
+    padding: 2rem;
+}
+.option{
+    color: white;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.wrapper{
+    display: flex;
+    gap:5rem;
+    background-color: #153252;
+    font-family:  "Poppins", sans-serif;
+    /* padding: 2rem; */
+}
+.homeHeader{
+    padding-top: 20rem;
+    padding-left: 4rem;
+    padding-right: 4.2rem;
+    display:inline-block;
+    background-color: #10263e;
+    /* width: 50rem; */
+}
+.homeHeaderNameTxt{
+    font-size: 4rem;
+    padding-top: 1rem;
+    /* padding-bottom: 1rem; */
+    padding-left: 1.5rem;
+    font-family: fantasy;
+    font-weight: 800;
+    color: white;
+}
+.activeOption{
+    color: limegreen;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.nameTxt{
+    padding-top: 1.7rem;
+    padding-bottom: 1rem;
+    padding-left: 6rem;
+    font-size: 3rem;
+    font-family: fantasy;
+    font-weight: 800;
+    color: white;
+}
+.homeHeading{
+    background-color: #10263e;
+    padding: 1.2rem;
+    display: flex;
+    gap:2rem;
+    /* background-color: #153252; */
+    font-family:  "Poppins", sans-serif;
+    padding: 2rem;
+}
+.div{
+    background: rgb(227, 232, 89);
+    box-shadow: 0 4px 4px rgba(202, 10, 10, 0.25);
+    height: 3px;
+    margin-bottom: 0.15rem;
+    margin-top: 0.2rem;
+    width: 30px;
+}
+@media screen and (min-width: 1024px) {
+    .nameTxt{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        padding-left: 6rem;
+        font-size: 2rem;
+    }
+    .wrapper{
+        display: flex;
+        gap:25rem;
+        background-color: #153252;
+        font-family:  "Poppins", sans-serif;
+        width: 95rem;
+/*         check whther this is fine or not 91.89rem */
+    }
+.homeHeader{
+    padding-top: 10rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    display: block;
+    background-color: #10263e;
+    width: 91.89rem;
+}
+.heading{
+    padding: 1.2rem;
+/*     background-color: #10263e; */
+}
+    .homeHeading{
+    background-color: #10263e;
+    padding: 1.2rem;
+    display: flex;
+    gap:2rem;
+    /* background-color: #153252; */
+    font-family:  "Poppins", sans-serif;
+    /* padding: 2rem; */
+}
+}

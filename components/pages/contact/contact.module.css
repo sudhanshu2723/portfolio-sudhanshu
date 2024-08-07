@@ -1,0 +1,106 @@
+.wrapper{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    background-color: #10263e;
+    color: white;
+    height: 100%;
+    width: max-content;
+    padding-bottom: 28rem;
+}
+.newWrapper{
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap onto the next line */
+    justify-content: space-evenly; 
+    width: 57.4rem;
+    margin-bottom: 25rem;
+}
+.lineStyle {
+    height: 1px;
+    width:6rem; 
+    background-color:white; 
+    margin-top:2rem;
+}
+.aboutLine{
+    display: flex;
+    gap: 1.5rem;
+    padding: 2rem;
+    /* padding-right: 2rem; */
+    color: white;
+    padding-top: 7rem;
+    padding-bottom: 4rem;
+    font-size: 4rem;
+}
+.edu{
+    background-color:#153252; 
+    color: white;
+    padding: 1.5rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 2rem;
+    display: flex;
+    gap: 2rem;
+    width: 30rem;
+    /* height: 10rem; */
+}
+.heading{
+    color: limegreen;
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-family: "Raleway", sans-serif;
+}
+.icon,.socialIcons{
+    border: 2px solid #265085; /* Set border width and color */
+    border-radius: 50%;
+    background-color: #265085;
+    /* margin:2px; */
+    padding: 2.5px;
+}
+.socialIcons{
+    /* padding-right: 1rem; */
+    margin-right: 1rem;
+}
+@media screen and (min-width: 1024px) {
+    .newWrapper{
+        display: flex;
+        flex-wrap: wrap; /* Allow items to wrap onto the next line */
+        justify-content: space-evenly; 
+        width: 90rem;
+    }
+    .edu{
+        background-color:#153252; 
+        color: white;
+        padding: 1.5rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        margin-bottom: 2rem;
+        display: flex;
+        gap: 2rem;
+        width: 30rem;
+        /* height: 10rem; */
+    }
+    .wrapper{
+        padding-left: 4rem;
+        padding-right: 4rem;
+        background-color: #10263e;
+        color: white;
+        height: 50rem;
+        width: 91.89rem;
+    }
+    .aboutLine{
+        display: flex;
+        gap: 1.5rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        color: white;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        font-size: 1.5rem;
+    }
+    .lineStyle {
+        height: 1px;
+        width:6rem; 
+        background-color:white; 
+        margin-top:1rem;
+    }
+}
